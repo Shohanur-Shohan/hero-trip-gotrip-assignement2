@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+section{
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+/* header start*/
+header{
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 10px 0px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .logo-group{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    text-decoration: none;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 44px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 600;
+}
+header nav ul li a:hover{
+    color: #FF5400;
+    font-weight: 600;
+}
+header nav ul li .active{
+    color: #FF5400;
+    font-weight: 600;
+}
+header nav ul .hambuger-icon{
+    display: none;
+}
+/* header end*/
+/* hero start */
+.hero{
+    margin-top: 45px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url('/images/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 105px 0px;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, rgba(7,2,17,1) 0%, rgba(167,204,233,0) 100%); */
+}
+.hero .content p{
+    padding: 0px 15%;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 65px;
+}
+.hero .content h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.hero .button-group{
+    width: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    gap: 24px;
+    align-items: center;
+}
+.hero .button-group input{
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+.hero .button-group input::placeholder{
+    color: rgba(19, 19, 24, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero .button-group input:focus{
+    border: 2px solid #FF5400;
+    outline: none;
+}
+.hero .button-group .btn1 button, .hero .button-group .btn2 button{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: left;
+    transition: 0.3s;
+    color: rgba(19, 19, 24, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero .button-group .btn1 button:hover, .hero .button-group .btn2 button:hover{
+    border: 2px solid #FF5400;
+    transition: 0.3s;
+}
+.hero .button-group .btn1, .hero .button-group .btn2{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero .button-group .btn1 img, .hero .button-group .btn2 img{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.hero .button-group .find-btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.hero .button-group .find-btn img{
+    position: absolute;
+    left: 30px;
+}
+
+.hero .button-group .find-btn button{
+    width: 100%;
+    background-color: #FF5400;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #FF5400;
+    transition: 0.3s;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    /* letter-spacing: 1px; */
+}
+.hero .button-group .find-btn button:hover{
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+
+/* hero end */
