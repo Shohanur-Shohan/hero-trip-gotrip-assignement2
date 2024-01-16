@@ -484,4 +484,43 @@ color: #FF5400;
     font-weight: 800;
     margin-bottom: 24px;
 }
+.reviews .row{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2;
+    gap: 24px;
+}
+.reviews .row .item{
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+}
+.reviews .row .item p{
+    margin-top: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.reviews .row .item .group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.reviews .row .item .profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;  
+}
+.reviews .row .item .star{
+    margin-top: 10px;
+    width: 100px;
+}
+.reviews .row .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+}
 /* reviews end */
