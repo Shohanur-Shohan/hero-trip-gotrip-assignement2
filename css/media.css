@@ -1,8 +1,627 @@
-/* @media (min-width: 320px) and (max-width:425px) */
+@media (min-width: 320px) and (max-width:425px){
+    header{
+        padding: 0px 2%;
+        padding-top: 15px;
+    }
+    main{
+        padding: 15px 2%;
+    }
+    header nav ul .hambuger-icon{
+        display: block;
+    }
+    header nav ul li{
+        display: none;
+    }
+    /* hero */
+    .hero{
+        padding: 80px 0px;
+    }
+    .hero .content h1 {
+        font-size: 28px;
+    }
+    .hero .content p {
+        padding: 0px 5%;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .hero .button-group {
+        grid-template-columns: 1fr;
+    }
+    /* hero */
+    /* .destination */
+    .destination .content h1 {
+        font-size: 28px;
+    }
+    .destination .content p {
+        padding: 0px 5%;
+        font-size: 14px;
+    }
+    .destination .grid1 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid2 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid3 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    /* .destination */
 
-/* @media (min-width: 426px) and (max-width:575px) */
+    /* .popular-tour */
+    .popular-tour {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        gap: 50px;
+    }
+    .popular-tour .content h1 {
+        font-size: 28px;
+    }
+    .popular-tour .content p {
+        font-size: 14px;
+    }
+    .popular-tour ul li {
+        font-size: 14px;
+    }
+    .popular-tour .image {
+        text-align: center;
+    }
+    .popular-tour .image img{
+        width: 100%;
+    }
+    /* .popular-tour */
+    /* why-us */
+    .why-us .grid-row {
+        display: block;
+    }
+    .why-us .content h1 {
+        font-size: 24px;
+    }
+    .why-us .content p {
+        padding: 0px 5%;
+        font-size: 14px;
+    }
+    .why-us .item {
+        padding: 20px;
+    }
+    .why-us .item h1 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+    .why-us .item p{
+        font-size: 14px;
+    }
+    .why-us .grid-row .card1,.why-us .grid-row .card2 {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .why-us  .card3 {
+        width: 80%;
+    }
+    /* why-us */
+    /* deals */
+    .deals .content h1 {
+        font-size: 28px;
+    }
+    .deals .content p {
+        padding: 0px 5%;
+        font-size: 14px;
+    }
+    .deals .group1,.deals .group2, .deals .group3 {
+        padding: 16px;
+        padding-top: 180px;
+        justify-content: center;
+    }
+    .deals .card {
+        padding: 22px;
+        width: 100%;
+    }
+    /* .deals .date-group {
+        gap: 15px;
+        display: inline-block;
+    } */
+    .deals .date-group {
+        gap: 10px;
+        display: inline-block;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .deals .card p {
+        font-size: 14px;
+    }
+    /* deals */
+    /* video */
+    .video .grid-row {
+        display: block;
+        width: 100%;
+        gap: 40px;
+    }
+    .video .grid-row .content {
+        width: 100%;
+    }
+    .video .grid-row .bg-video {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .video .content ul {
+        padding-bottom: 10px;
+    }
+    .video .content h1 {
+        font-size: 28px;
+    }
+    .video .content p {
+        font-size: 14px;
+    }
+    /* video */
+    /* .reviews */
+    .reviews .row {
+        grid-template-columns: 1fr;
+    }
+    .reviews .content h1{
+        font-size: 28px;
+    }
+    .reviews .row .item .group {
+        padding-right: 0px;
+    }
+    .reviews .row .item .group .profile h3{
+        font-size: 16px;
+    }
+    .reviews .row .item {
+        padding: 16px;
+    }
+    .reviews .row .item p {
+        font-size: 14px;
+    }
+    .reviews .row .item .star {
+        margin-top: 0px;
+        width: 80px;
+    }
+    /* .reviews */
+    /* .newsletter */
+    .newsletter .row {
+        grid-template-columns: 1fr;
+    }
+    .newsletter .row form input {
+        width: 82%;
+    }
+    .primaryBtn {
+        padding: 10px 34px;
+    }
+    .newsletter .row form .subscribeBtn a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .newsletter .row .form p {
+        font-size: 14px;
+    }
+    .newsletter .image .discount {
+        padding: 16px 10px;
+        bottom: 45px;
+    }
+    .newsletter .image .discount h2 {
+        font-size: 16px;
+    }
+    .newsletter .image .discount h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    /* .newsletter */
+    footer {
+        padding: 40px 0px;
+        padding-bottom: 20px;
+    }
+    footer .content p {
+        padding: 0px 5px;
+    }
+}
 
-/* @media (min-width: 576px) and (max-width:767px) */
+@media (min-width: 426px) and (max-width:575px){
+    header{
+        padding: 0px 2%;
+        padding-top: 15px;
+    }
+    main{
+        padding: 15px 2%;
+    }
+    header nav ul .hambuger-icon{
+        display: block;
+    }
+    header nav ul li{
+        display: none;
+    }
+    /* hero */
+    .hero{
+        padding: 80px 0px;
+    }
+    .hero .content h1 {
+        font-size: 45px;
+    }
+    .hero .content p {
+        padding: 0px 12%;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .hero .button-group {
+        grid-template-columns: 1fr;
+    }
+    /* hero */
+    /* .destination */
+    .destination .content h1 {
+        font-size: 36px;
+    }
+    .destination .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .destination .grid1 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid2 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid3 {
+        /* height: 200px; */
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    /* .destination */
+
+    /* .popular-tour */
+    .popular-tour {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        gap: 50px;
+    }
+    .popular-tour .image {
+        text-align: center;
+    }
+    .popular-tour .image img{
+        width: 100%;
+    }
+    /* .popular-tour */
+    /* why-us */
+    .why-us .grid-row {
+        display: block;
+    }
+    .why-us .content h1 {
+        font-size: 36px;
+    }
+    .why-us .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .why-us .item {
+        padding: 20px;
+    }
+    .why-us .item h1 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+    .why-us .item p{
+        font-size: 14px;
+    }
+    .why-us .grid-row .card1,.why-us .grid-row .card2 {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .why-us  .card3 {
+        width: 80%;
+    }
+    /* why-us */
+    /* deals */
+    .deals .content h1 {
+        font-size: 36px;
+    }
+    .deals .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .deals .group1,.deals .group2, .deals .group3 {
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+    .deals .card {
+        padding: 22px;
+        width: 100%;
+    }
+    .deals .date-group {
+        gap: 15px;
+    }
+    .deals .card p {
+        font-size: 14px;
+    }
+    /* deals */
+    /* video */
+    .video .grid-row {
+        display: block;
+        width: 100%;
+        gap: 40px;
+    }
+    .video .grid-row .content {
+        width: 100%;
+    }
+    .video .grid-row .bg-video {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .video .content ul {
+        padding-bottom: 10px;
+    }
+    .video .content h1 {
+        font-size: 36px;
+    }
+    .video .content p {
+        font-size: 14px;
+    }
+    /* video */
+    /* .reviews */
+    .reviews .row {
+        grid-template-columns: 1fr;
+    }
+    .reviews .row .item .group {
+        padding-right: 0px;
+    }
+    .reviews .row .item .group .profile h3{
+        font-size: 16px;
+    }
+    .reviews .row .item {
+        padding: 16px;
+    }
+    .reviews .row .item p {
+        font-size: 14px;
+    }
+    .reviews .row .item .star {
+        margin-top: 0px;
+        width: 80px;
+    }
+    /* .reviews */
+    /* .newsletter */
+    .newsletter .row {
+        grid-template-columns: 1fr;
+    }
+    .newsletter .row form input {
+        width: 91%;
+    }
+    .primaryBtn {
+        padding: 10px 34px;
+    }
+    .newsletter .row form .subscribeBtn a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .newsletter .row .form p {
+        font-size: 14px;
+    }
+    .newsletter .image .discount {
+
+        padding: 20px 28px;
+        bottom: 45px;
+    }
+    .newsletter .image .discount h2 {
+        font-size: 18px;
+    }
+    .newsletter .image .discount h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    /* .newsletter */
+    footer {
+        padding: 40px 0px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px){
+    header{
+        padding: 0px 2%;
+        padding-top: 15px;
+    }
+    main{
+        padding: 15px 2%;
+    }
+    header nav ul .hambuger-icon{
+        display: block;
+    }
+    header nav ul li{
+        display: none;
+    }
+    /* hero */
+    .hero{
+        padding: 80px 0px;
+    }
+    .hero .content h1 {
+        font-size: 45px;
+    }
+    .hero .content p {
+        padding: 0px 12%;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .hero .button-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* hero */
+    /* .destination */
+    .destination .content h1 {
+        font-size: 36px;
+    }
+    .destination .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .destination .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid2 {
+        grid-template-columns: 2fr 3fr 2fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .destination .grid3 {
+        grid-template-columns: 2fr 3fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    /* .destination */
+
+    /* .popular-tour */
+    .popular-tour {
+        grid-template-columns: 1fr;
+        grid-row: 1;
+        gap: 50px;
+    }
+    .popular-tour .image {
+        text-align: center;
+    }
+    .popular-tour .image img{
+        width: 100%;
+    }
+    /* .popular-tour */
+    /* why-us */
+    .why-us .content h1 {
+        font-size: 36px;
+    }
+    .why-us .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .why-us .item {
+        padding: 20px;
+    }
+    .why-us .item h1 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+    .why-us .item p{
+        font-size: 14px;
+    }
+    .why-us  .card3 {
+        width: 45%;
+    }
+    /* why-us */
+    /* deals */
+    .deals .content h1 {
+        font-size: 36px;
+    }
+    .deals .content p {
+        padding: 0px 10%;
+        font-size: 14px;
+    }
+    .deals .group1,.deals .group2, .deals .group3 {
+        padding: 20px;
+    }
+    .deals .card {
+        padding: 22px;
+        width: 65%;
+    }
+    .deals .date-group {
+        gap: 15px;
+    }
+    .deals .card p {
+        font-size: 14px;
+    }
+    /* deals */
+    /* video */
+    .video .grid-row {
+        display: block;
+        width: 100%;
+        gap: 40px;
+    }
+    .video .grid-row .content {
+        width: 100%;
+    }
+    .video .grid-row .bg-video {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .video .content ul {
+        padding-bottom: 10px;
+    }
+    .video .content h1 {
+        font-size: 36px;
+    }
+    .video .content p {
+        font-size: 14px;
+    }
+    /* video */
+    /* .reviews */
+    .reviews .row .item .group {
+        padding-right: 0px;
+    }
+    .reviews .row .item .group .profile h3{
+        font-size: 16px;
+    }
+    .reviews .row .item {
+        padding: 16px;
+    }
+    .reviews .row .item p {
+        font-size: 14px;
+    }
+    .reviews .row .item .star {
+        margin-top: 0px;
+        width: 80px;
+    }
+    /* .reviews */
+    /* .newsletter */
+    .newsletter .row {
+        grid-template-columns: 1fr;
+    }
+    .newsletter .row form input {
+        width: 91%;
+    }
+    .primaryBtn {
+        padding: 10px 34px;
+    }
+    .newsletter .row form .subscribeBtn a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .newsletter .row .form p {
+        font-size: 14px;
+    }
+    .newsletter .image .discount {
+
+        padding: 20px 28px;
+        bottom: 45px;
+    }
+    .newsletter .image .discount h2 {
+        font-size: 18px;
+    }
+    .newsletter .image .discount h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    /* .newsletter */
+    footer {
+        padding: 40px 0px;
+        padding-bottom: 20px;
+    }
+    
+    
+}
 
 @media (min-width: 768px) and (max-width:991px){
     header{
