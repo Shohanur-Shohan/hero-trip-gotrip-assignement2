@@ -158,3 +158,59 @@ header nav ul .hambuger-icon{
 }
 
 /* hero end */
+/* popular tour */
+.popular-tour{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular-tour .content h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-tour .content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.primaryBtn{
+    border-radius: 8px;
+    background: #FF5400;
+    text-decoration: none;
+    padding: 13px 34px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20;
+    border: 2px solid #FF5400;
+    transition: 0.5s;
+}
+.primaryBtn:hover{
+    background: #fff;
+    color: #FF5400;
+    border: 2px solid #FF5400;
+    transition: 0.5s;
+}
+.popular-tour ul{
+    margin: 24px 0px;
+    padding-left: 20px;
+}
+.popular-tour ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.popular-tour .image{
+    text-align: right;
+}
+/* popular tour */
+/* <!-- destination --> */
+/* <!-- destination --> */
