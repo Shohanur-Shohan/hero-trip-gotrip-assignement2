@@ -251,8 +251,12 @@ header nav ul .hambuger-icon{
 }
 .destination .gallery{
     margin-top: 48px;
+    width: 100%;
 }
-
+.destination .gallery img{
+    width: 100%;
+    height: 100%;
+}
 .destination .grid1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -530,7 +534,7 @@ header nav ul .hambuger-icon{
     background-color: rgba(19, 19, 24, 0.05);
     border: none;
     padding: 16px 20px;
-    width: 92%;
+    width: 88%;
     display: block;
     outline: none;
     margin-bottom: 16px;
@@ -637,6 +641,7 @@ color: #FF5400;
 /* reviews end */
 /* footer */
 footer{
+    width: 100%;
     padding: 100px 0px;
     background-color: rgba(19, 19, 24, 0.05);
     text-align: center;

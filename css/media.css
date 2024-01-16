@@ -1,11 +1,29 @@
-/* @media (min-width: 320px) and (max-width:425px)
+/* @media (min-width: 320px) and (max-width:425px) */
 
-@media (min-width: 426px) and (max-width:575px)
+/* @media (min-width: 426px) and (max-width:575px) */
 
-@media (min-width: 576px) and (max-width:767px)
+/* @media (min-width: 576px) and (max-width:767px) */
 
-@media (min-width: 768px) and (max-width:991px)
+@media (min-width: 768px) and (max-width:991px){
 
-@media (min-width: 992px) and (max-width:1199px)
+}
 
-@media (min-width: 1200px) and (max-width:1399px) */
+@media (min-width: 992px) and (max-width:1199px){
+
+    header{
+        padding: 0px 2%;
+    }
+    main{
+        padding: 0px 2%;
+    }
+    .why-us  .card3 {
+        width: 45%;
+    }
+    footer {
+        padding: 40px 0px;
+    }
+}
+
+/* @media (min-width: 1200px) and (max-width:1399px){
+
+} */
