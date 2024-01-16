@@ -178,6 +178,7 @@ header nav ul .hambuger-icon{
     grid-row: 1;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 .popular-tour .content h1{
     color: #131318;
