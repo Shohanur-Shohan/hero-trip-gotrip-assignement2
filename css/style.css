@@ -401,6 +401,7 @@ header nav ul .hambuger-icon{
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-bottom: 24px;
 }
 .deals .group2{
     background-image: url('/images/deals2.png');
@@ -411,6 +412,7 @@ header nav ul .hambuger-icon{
     display: flex;
     align-items: center;
     justify-content: start;
+    margin-bottom: 24px;
 }
 .deals .group3{
     background-image: url('/images/deals1.png');
@@ -421,6 +423,7 @@ header nav ul .hambuger-icon{
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-bottom: 24px;
 }
 .deals .date-group{
     display: flex;
